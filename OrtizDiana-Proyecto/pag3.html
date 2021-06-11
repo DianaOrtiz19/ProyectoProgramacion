@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nestle | Contactanos</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon"  href="icono.ico">
+</head>
+<body>
+    <header class="header">
+        <div id="encabezado">
+            <div id="logo">
+                Nestle
+            </div>
+            <div id="menu">
+                <ul>
+                    <li> <a href="Index.html" class="enlace"> Inicio </a></li>
+                    <li> <a href="pag1.html" class="enlace"> Productos </a></li>
+                    <li> <a href="pag2.php" class="enlace"> Unete </a></li>
+                    <li> <a href="pag3.html" class="active"> Contactanos </a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <script>
+        function popup() {
+            alert("Mensaje enviado!")
+        }
+        </script>
+    <section class="form-register">
+        <form method="GET">
+        <h4>Contactanos</h4>
+        <input class="controls" type="text" name="nombre"  placeholder="Nombre">
+        <input class="controls" type="text" name="correo" placeholder="Correo">
+        <input class="controls" type="text" name="cel" placeholder="Telefono">
+        <textarea class="msj" name="msj" placeholder="Escriba aqui su mensaje"></textarea>
+        <input class="botons" type="submit" onclick="popup()" value="Enviar">
+        </form>
+      </section>
+      <br>
+       
+</body>
+</html>
